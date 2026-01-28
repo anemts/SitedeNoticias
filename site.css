@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +24,8 @@ body {
   text-decoration: none;
   margin: 0 15px;
   font-weight: 500;
+  transition-duration: 0.8s;
+  font-family: "Lexend", sans-serif;
 }
 
 .menu a:hover {
@@ -72,8 +75,31 @@ body {
 
 .rodape-logo img {
   height: 60px;
+
 }
 
+
+.rodape-bloco, .rodape-bloco-2 h3 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #f1f1f1;
+}
+
+.rodape-bloco, .rodape-bloco-2 p {
+  font-size: 13px;
+  margin: 2px 0;
+  color: #f1f1f1;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 15px 60px;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
 .stranger {
   margin-top: 50px;
