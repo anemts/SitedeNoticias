@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 body {
@@ -25,7 +25,6 @@ body {
   margin: 0 15px;
   font-weight: 500;
   transition-duration: 0.8s;
-  font-family: "Lexend", sans-serif;
 }
 
 .menu a:hover {
@@ -79,23 +78,35 @@ body {
 }
 
 
-.rodape-bloco, .rodape-bloco-2 h3 {
+.rodape-bloco, .rodape-bloco-2, .rodape-bloco-3 h3 {
   font-size: 14px;
   margin-bottom: 6px;
   color: #f1f1f1;
 }
 
-.rodape-bloco, .rodape-bloco-2 p {
+.rodape-bloco, .rodape-bloco-2, .rodape-bloco-3 p {
   font-size: 13px;
   margin: 2px 0;
   color: #f1f1f1;
+  line-height: 1.5;
 }
 
+.icones {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.icones img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 
 footer {
   display: flex;
   align-items: center;
-  padding: 15px 60px;
+  padding: 25px 60px;
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
@@ -138,4 +149,14 @@ footer {
   font-size: 15px;
   line-height: 1.6;
   color: #f1f1f1;
+}
+.copyright {
+  margin-left: auto;
+  align-self: center;
+  font-size: 11px;
+  color: #f1f1f1;
+}
+
+footer {
+  background-color: #000;
 }
