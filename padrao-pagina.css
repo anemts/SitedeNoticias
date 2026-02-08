@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
+
+.topo {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition-duration: 0.6s;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 40px 60px;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.rodape-logo img {
+  height: 60px;
+}
+
+
+.rodape-bloco, .rodape-bloco-2, .rodape-bloco-3 h3 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #f1f1f1;
+}
+
+.rodape-bloco, .rodape-bloco-2, .rodape-bloco-3 p {
+  font-size: 13px;
+  margin: 2px 0;
+  color: #f1f1f1;
+  line-height: 1.5;
+}
+
+.icones {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.icones img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-left: auto;
+  align-self: center;
+  font-size: 11px;
+  color: #f1f1f1;
+}
