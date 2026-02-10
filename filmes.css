@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
+
+body {
+    background-color: #FCC179;
+}
+
+.conteudo-filmes {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.conteudo-duna {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    padding-right: 30px;
+    gap: 15px;
+}
+
+.conteudo-duna img {
+    width: 621px;
+    height: 349px;
+    margin-left: 30px;
+}
+
+.text-duna {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 25px;
+    gap: 40px;
+}
+
+.text-duna h2 {
+    font-size: 55px;
+}
+
+.text-duna li {
+    font-size: 20px;
+    list-style: none;
+    padding-bottom: 20px;
+    width: 590px;
+    font-weight: bold;
+}
+
+.destaque-duna {
+    color: #DD7D23;
+    z-index: 2;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.20);
+}
+
+.noticias-filme {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.bloco-marvel {
+    display: flex;
+    flex-direction: column;
+    background-color: #F83B3B;
+    width: 573px;
+    height: 314px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 25px;
+    gap: 25px;
+}
+
+.bloco-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.bloco-superior p {
+    width: 200px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.40);
+}
+
+.text-marvel {
+    width: 520px;
+    padding-left: 50PX;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.40);
+}
+
+.destaque-dr-estranho {
+    color: #801D1D;
+}
+
+.bloco-filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-left: 10px;
+}
+
+.cards-filmes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-filmes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    width: 340px;
+}
+
+.titulo-card-1, .text-card-1 {
+    color: #444045;
+}
+
+.titulo-card-2, .text-card-2 {
+    color: #140B0B;
+}
+
+.titulo-card-3, .text-card-3 {
+    color: #1B1C55;
+}
